@@ -1,0 +1,14 @@
+.pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf button {
+    background-color: rgb(26, 143, 238);
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    border-color: rgb(26, 143, 238);
+    margin-left: 1.5rem;
+}

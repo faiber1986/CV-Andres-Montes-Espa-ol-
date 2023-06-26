@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/proyectos.css">
     <link rel="stylesheet" href="./assets/css/contacto.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/exportarPDF.css">
 
 </head>
 
@@ -368,6 +369,11 @@
         <button>Enviar mensaje</button>
     </section>
 
+    <section class="pdf">
+        <h3>¿Deseas descargar esta web en PDF?<br>Dar click en el siguiente botón:</h3>
+        <button id="exportButton">Exportar PDF</button>
+    </section>
+
     <footer>
         <div>
             <img src="./assets/img/AM.png" alt="logo">
@@ -376,6 +382,9 @@
             <p>&copy Copyrigth Andres Montes - 2023</p>    
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="./exportarPDF.js"></script>
 
 </body>
 
