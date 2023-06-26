@@ -1,0 +1,27 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: justify;
+}
+
+.contacto h4 {
+    font-weight:normal;
+}
+
+.contacto input {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.contacto textarea {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.contacto button {
+    background-color: rgb(26, 143, 238);
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    border-color: rgb(26, 143, 238);
+    margin-left: 1.5rem;
+}

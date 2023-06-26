@@ -1,0 +1,60 @@
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgb(216, 215, 215);
+    border-radius: 0 2rem 0 2rem;
+    text-align: center;
+}
+
+.proyectos h1{
+    color: rgb(73, 72, 72);
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.proyecto__contenedor {
+    margin-bottom: 2rem;
+}
+
+.proyecto img {
+    width: 30rem;
+    height: 20rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.proyecto__btn-1 {
+    background-color: white;
+    color: rgb(26, 143, 238);
+    width: 8rem;
+    height: 2.5rem;
+    border-color: rgb(26, 143, 238);
+    margin-right: 2rem;
+}
+
+.proyecto__btn-2 {
+    background-color: rgb(26, 143, 238);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-color: rgb(26, 143, 238);
+}
+
+.proyecto__btn-1 a {
+    text-decoration: none;
+    color: rgb(26, 143, 238);
+}
+
+.proyecto__btn-2 a {
+    text-decoration: none;
+    color: white;
+}
+
